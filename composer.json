@@ -1,0 +1,17 @@
+{
+    "name": "bempromotora/desafio01",
+    "description": "Pesquisa de seus clientes",
+    "authors": [
+        {
+            "name": "AndersonInaes",
+            "email": "Anderson.inaes@gmail.com"
+        }
+    ],
+    "require": {
+        },
+        "autoload" : {
+            "psr-4" : {
+                "App\\" : "App/"
+            }
+        }
+}
