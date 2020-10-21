@@ -1,0 +1,14 @@
+CREATE SCHEMA `people` DEFAULT CHARACTER SET utf8 ;
+
+CREATE TABLE `peoples`.`people` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `age` VARCHAR(45) NULL,
+  `salary` VARCHAR(45) NULL,
+  `convenio` VARCHAR(45) NULL,
+  `loan` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
