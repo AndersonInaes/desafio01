@@ -1,6 +1,6 @@
 CREATE SCHEMA `search` DEFAULT CHARACTER SET utf8 ;
 
-CREATE TABLE `peoples`.`people` (
+CREATE TABLE `people`.`people` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NULL,
   `email` VARCHAR(45) NULL,
